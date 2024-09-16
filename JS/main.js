@@ -16,7 +16,7 @@
 $('#dobles').on('click', function(){
 
    var valor = $('#pantalla').val(); 
-   var dobles = valor * 40;
+   var dobles = valor * 55;
    $("#pantalla").val(dobles);
 
 })
@@ -24,7 +24,7 @@ $('#dobles').on('click', function(){
 $('#simples').on('click', function(){
 
     var valor = $('#pantalla').val();  
-    var simples = valor * 50;
+    var simples = valor * 65;
     $("#pantalla").val(simples);
     
 });
@@ -35,10 +35,10 @@ $('#copias').on('click', function(){
     var valor = parseInt($('#pantalla').val());  
 
     if(valor >= 10 ){
-       var copiasUno = valor * 55;
+       var copiasUno = valor * 80;
        $("#pantalla").val(copiasUno);
     }else{
-        var copiasDos = valor * 60;
+        var copiasDos = valor * 72;
        $("#pantalla").val(copiasDos);
     }    
     
@@ -50,10 +50,10 @@ $('#bajadas').on('click', function(){
     var valor = parseInt($('#pantalla').val());  
 
     if(valor >= 10 ){
-       var bajadasUno = valor * 65;
+       var bajadasUno = valor * 100;
        $("#pantalla").val(bajadasUno);
     }else{
-        var bajadasDos = valor * 70;
+        var bajadasDos = valor * 90;
        $("#pantalla").val(bajadasDos);
     }    
 });
@@ -62,8 +62,12 @@ $('#bajadas').on('click', function(){
 $('#bajadasAtres').on('click', function(){
 
     var valor = $('#pantalla').val();  
-    var bajadasAtres = valor * 220;
+    var bajadasAtres = valor * 300;
     $("#pantalla").val(bajadasAtres);
+    else{
+        var bajadasAtres = valor * 250;
+       $("#pantalla").val(bajadasAtres);
+    }
     
 });
 
@@ -71,7 +75,7 @@ $('#bajadasAtres').on('click', function(){
 $('#comunAcuatro').on('click', function(){
 
     var valor = $('#pantalla').val();  
-    var comunAcuatro = valor * 400;
+    var comunAcuatro = valor * 500;
     $("#pantalla").val(comunAcuatro);
     
 });
@@ -80,7 +84,7 @@ $('#comunAcuatro').on('click', function(){
 $('#gruesoAcuatro').on('click', function(){
 
     var valor = $('#pantalla').val();  
-    var gruesoAcuatro = valor * 650;
+    var gruesoAcuatro = valor * 850;
     $("#pantalla").val(gruesoAcuatro);
     
 });
@@ -89,7 +93,7 @@ $('#gruesoAcuatro').on('click', function(){
 $('#adhesivoAcuatro').on('click', function(){
 
     var valor = $('#pantalla').val();  
-    var adhesivoAcuatro = valor * 650;
+    var adhesivoAcuatro = valor * 850;
     $("#pantalla").val(adhesivoAcuatro);
     
 });
@@ -98,7 +102,7 @@ $('#adhesivoAcuatro').on('click', function(){
 $('#comunAtres').on('click', function(){
 
     var valor = $('#pantalla').val();  
-    var comunAtres = valor * 800;
+    var comunAtres = valor * 1000;
     $("#pantalla").val(comunAtres);
     
 });
@@ -107,7 +111,7 @@ $('#comunAtres').on('click', function(){
 $('#gruesoAtres').on('click', function(){
 
     var valor = $('#pantalla').val();  
-    var gruesoAtres = valor * 1300;
+    var gruesoAtres = valor * 1700;
     $("#pantalla").val(gruesoAtres);
     
 });
@@ -116,7 +120,7 @@ $('#gruesoAtres').on('click', function(){
 $('#adhesivoAtres').on('click', function(){
 
     var valor = $('#pantalla').val();  
-    var adhesivoAtres = valor * 1300;
+    var adhesivoAtres = valor * 1700;
     $("#pantalla").val(adhesivoAtres);
     
 });
@@ -125,7 +129,7 @@ $('#adhesivoAtres').on('click', function(){
 $('#chico').on('click', function(){
 
     var valor = parseInt($('#pantalla').val());  
-    var chico = valor + 1150;
+    var chico = valor + 1200;
     $("#pantalla").val(chico);
     
 });
@@ -134,7 +138,7 @@ $('#chico').on('click', function(){
 $('#medio').on('click', function(){
 
     var valor = parseInt($('#pantalla').val());  
-    var medio = valor + 1250;
+    var medio = valor + 1300;
     $("#pantalla").val(medio);
     
 });
@@ -143,7 +147,7 @@ $('#medio').on('click', function(){
 $('#grande').on('click', function(){
 
     var valor = parseInt($('#pantalla').val());  
-    var grande = valor + 1520;
+    var grande = valor + 1600;
     $("#pantalla").val(grande);
     
 });
